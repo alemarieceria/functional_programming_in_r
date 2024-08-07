@@ -1,6 +1,6 @@
 ---
 title: "Labs for UO's EDLD 653: Functional Programming for Educational Data Science Course"
-subtitle: "[Course Website](https://fp-2022.netlify.app/)"
+subtitle: "[Course Website](https://fp-2022.netlify.app/)" 
 format: html
 execute: 
   warning: false
