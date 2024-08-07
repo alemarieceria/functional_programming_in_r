@@ -1,0 +1,1 @@
+Sitemap: https://alemarieceria.github.io/functional_programming_in_r/sitemap.xml

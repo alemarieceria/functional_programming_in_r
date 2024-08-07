@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.26">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Functional Programming in R – Labs for UO’s EDLD 653: Functional Programming for Educational Data Science Course</title>
+<title>Labs for UO’s EDLD 653: Functional Programming for Educational Data Science Course – Functional Programming in R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -117,7 +117,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -146,7 +146,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Labs for UO’s EDLD 653: Functional Programming for Educational Data Science Course</h1>
-<p class="subtitle lead"><a href="https://fp-2022.netlify.app/">GitHub Repository</a></p>
+<p class="subtitle lead"><a href="https://fp-2022.netlify.app/">Course Website</a></p>
 </div>
 
 
@@ -621,12 +621,12 @@ $Gentoo.male
 <span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>file_paths</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "C:/Users/4p0nc/OneDrive - hawaii.edu/Desktop/r/functional_programming_in_r/plots/adelie_female_bill_lengths.png"   
-[2] "C:/Users/4p0nc/OneDrive - hawaii.edu/Desktop/r/functional_programming_in_r/plots/chinstrap_female_bill_lengths.png"
-[3] "C:/Users/4p0nc/OneDrive - hawaii.edu/Desktop/r/functional_programming_in_r/plots/gentoo_female_bill_lengths.png"   
-[4] "C:/Users/4p0nc/OneDrive - hawaii.edu/Desktop/r/functional_programming_in_r/plots/adelie_male_bill_lengths.png"     
-[5] "C:/Users/4p0nc/OneDrive - hawaii.edu/Desktop/r/functional_programming_in_r/plots/chinstrap_male_bill_lengths.png"  
-[6] "C:/Users/4p0nc/OneDrive - hawaii.edu/Desktop/r/functional_programming_in_r/plots/gentoo_male_bill_lengths.png"     </code></pre>
+<pre><code>[1] "/home/runner/work/functional_programming_in_r/functional_programming_in_r/plots/adelie_female_bill_lengths.png"   
+[2] "/home/runner/work/functional_programming_in_r/functional_programming_in_r/plots/chinstrap_female_bill_lengths.png"
+[3] "/home/runner/work/functional_programming_in_r/functional_programming_in_r/plots/gentoo_female_bill_lengths.png"   
+[4] "/home/runner/work/functional_programming_in_r/functional_programming_in_r/plots/adelie_male_bill_lengths.png"     
+[5] "/home/runner/work/functional_programming_in_r/functional_programming_in_r/plots/chinstrap_male_bill_lengths.png"  
+[6] "/home/runner/work/functional_programming_in_r/functional_programming_in_r/plots/gentoo_male_bill_lengths.png"     </code></pre>
 </div>
 <details class="code-fold">
 <summary>Use a <code>for</code> loop to save the plots to a folder on your computer</summary>
@@ -742,7 +742,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/alemarieceria\.github\.io\/functional_programming_in_r\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
